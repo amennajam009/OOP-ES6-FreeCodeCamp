@@ -54,3 +54,14 @@ const MyObject = {
 };
 console.log(MyObject.ShowfullName());
 
+const  Example ={
+    FistLet:"My",
+    SecondLet:"Name",
+    ThirdLet:"Is",
+    ForthLet:"Amen",
+    FifthLet:"Najam",
+    OutputweWant : function(){
+        return this.FistLet + " " + this.SecondLet + " " + this.ThirdLet + " " + this.ForthLet + " " + this.FifthLet;
+    }
+}
+console.log(Example.OutputweWant());
