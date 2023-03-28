@@ -65,3 +65,17 @@ const  Example ={
     }
 }
 console.log(Example.OutputweWant());
+
+const Example2={
+    FistLet:"hello",
+    second:"My",
+    Third:"Name",
+    Forth:"Is",
+    Fifth:"Amen",
+    Sixth:"Najam",
+    Seventh:":)",
+    CompleteSentence: function(){
+        return this.FistLet+" "+this.second+" "+this.Third+" "+this.Forth+" "+this.Fifth+" "+ this.Sixth+" "+this.Seventh;
+    }
+}
+console.log(Example2.CompleteSentence());
