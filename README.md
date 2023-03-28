@@ -8,4 +8,4 @@
 <h1>Properties/Methods</h1>
 <h3><b>Properties</b></h3>
 <p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br><b>Here An Example:</b></p>
-![alt text](../2023-03-28%2016_22_52-Window.png)
+
