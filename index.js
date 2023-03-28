@@ -47,6 +47,7 @@ const MyObject = {
     phone:"857589303045",
     Email:"hdhduukskso",
     FavColor:"pink",
+    // function is method init
     ShowfullName: function(){
         return  this.Fistname  + this.Lastname;
     }
