@@ -7,4 +7,4 @@
 <p>Day#2</p>
 <h1>Properties/Methods</h1>
 <h3><b>Properties</b></h3>
-<p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br>To Better Use objects is applying the</p>
+<p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br>Here An Example</p>
