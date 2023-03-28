@@ -29,4 +29,27 @@ let MyObject = {
     }
 }
 
-console.log(MyObject)
+console.log(MyObject);
+//Myvariable is the property init
+const Myvariable = {
+    name:"amen",
+    class:"sdf",
+    phone:"0349032343",
+    Email:"amennajam@gmail.com",
+    Institute:"skfnsjdfhsf"
+}
+console.log(Myvariable);
+
+
+const MyObject = {
+    Fistname:"amen",
+    Lastname:"najam",
+    phone:"857589303045",
+    Email:"hdhduukskso",
+    FavColor:"pink",
+    ShowfullName: function(){
+        return  this.Fistname  + this.Lastname;
+    }
+};
+console.log(MyObject.ShowfullName());
+
