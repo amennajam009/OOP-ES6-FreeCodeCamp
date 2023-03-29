@@ -79,3 +79,19 @@ const Example2={
     }
 }
 console.log(Example2.CompleteSentence());
+
+
+let ObjectConstructor = {
+    name:"amen",
+    Lastname:"najam",
+    Phone:"+9248584754875",
+    address:{
+        City:"Lahore",
+        Country:"Pakistan",
+        Loaction:"string",
+    },
+    showName:function(){
+        return this.name+" "+this.Lastname;
+    }
+}
+console.log(ObjectConstructor.showName());
