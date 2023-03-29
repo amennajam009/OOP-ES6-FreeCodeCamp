@@ -7,5 +7,11 @@
 <p>Day#2</p>
 <h1>Properties/Methods</h1>
 <h3><b>Properties</b></h3>
-<p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br><b>Here An Example:</b><br>![My Image](/pic/pic1.png)</p>
+<p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br><b>Here An Example:</b><br>
+ Const person = {
+    name:"john",
+    age:39,
+    isMarried:true,
+    hobbies:["reading","playing music","hiking"]
+ }; </p>
 
