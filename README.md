@@ -10,3 +10,8 @@
 <p>In Javascript Every Object is a Collection Of properties where Properties can be Name,Class,Contact etc<br>
  </p>
 
+ <h3><b>Methods</b></h3>
+<p>While object properties represent data,methods represent actions that an object can
+perform.<br>
+ </p>
+
