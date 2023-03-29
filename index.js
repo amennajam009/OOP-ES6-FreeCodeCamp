@@ -80,6 +80,7 @@ const Example2={
 }
 console.log(Example2.CompleteSentence());
 
+//ObjectConstructor
 
 let ObjectConstructor = {
     name:"amen",
@@ -95,3 +96,20 @@ let ObjectConstructor = {
     }
 }
 console.log(ObjectConstructor.showName());
+
+
+//object Constructor
+let ObjectConstructor2 = {
+    fistname:"hats",
+    Lastname:"donkey",
+    Phone:"+927475675748",
+    Eduaction:{
+        edu:"9th Fail",
+        reason:"Too much big brain pp",
+        mainreason:"haad harami "
+    },
+    PrintSpecific : function(){
+        return this.fistname+' '+this.Lastname ;
+    }
+}
+console.log(ObjectConstructor2.PrintSpecific())
