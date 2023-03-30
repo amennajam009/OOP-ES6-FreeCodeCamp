@@ -113,3 +113,18 @@ let ObjectConstructor2 = {
     }
 }
 console.log(ObjectConstructor2.PrintSpecific())
+
+// a JavaScript function invoked using the new operator. Let's see how
+// to create a constructor for the person object with an example
+
+function person(){
+    this.name="amen",
+    this.City="lahore"
+}
+
+var johnSmith = new Person();
+johnSmith.name = "John";
+johnSmith.surname = "Smith";
+var marioRossi = new Person();
+marioRossi.name = "Mario";
+marioRossi.surname = "Rossi";
