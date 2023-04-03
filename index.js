@@ -130,11 +130,33 @@ marioRossi.name = "Mario";
 marioRossi.surname = "Rossi";
 
 
+// constructor can be defined with the use of diff keywords like "class" 
+
+
+class person{
+    constructor(name,age){
+        this.name=name,
+        this.age=age
+    }
+}
+console.log("amen", 20);
+
+
+const anotherperson = new person ('Alice' , 20);
+console.log(anotherperson.name);
+console.log(anotherperson.age);
 
 
 
+function human (name,age,education,interest,favsong){
+    this.name=name;
+    this.age=age;
+    this.education=education,
+    this.interest=interest,
+    this.favsong=favsong
+}
+console.log("amen",20,"uni","playing guitar","none");
 
 
-
-
-
+let anotherhuman = new human("neena",30,"uni","cooking","none");
+console.log(anotherhuman);
