@@ -128,3 +128,13 @@ johnSmith.surname = "Smith";
 var marioRossi = new Person();
 marioRossi.name = "Mario";
 marioRossi.surname = "Rossi";
+
+
+
+
+
+
+
+
+
+

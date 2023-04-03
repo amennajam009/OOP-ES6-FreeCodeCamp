@@ -21,6 +21,5 @@ perform.<br>
 <h1>Object Constructor</h1>
 <h3><b>Object Constructor</b></h3>
 <p>Let suppose if we need to give multiple object of same person so what we'll do? if we want to create two
-person objects,we can use constructor - a JavaScript function invoked using the new operator. Let's see how
-to create a constructor for the person object with an example<br>
- </p>
+person objects,we can use constructor - a JavaScript function invoked using the new operator.<br>
+In JavaScript, object constructors are defined using the class or function keywords. </p>
