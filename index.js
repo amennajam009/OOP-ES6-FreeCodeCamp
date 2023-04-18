@@ -160,3 +160,7 @@ console.log("amen",20,"uni","playing guitar","none");
 
 let anotherhuman = new human("neena",30,"uni","cooking","none");
 console.log(anotherhuman);
+
+
+
+

@@ -25,3 +25,14 @@ for(i=0; i<20 ; i++){
 }
 console.log(i);
 console.log(Numberthree);
+
+
+//compare the block scope of var and let keywords
+//when we declare the variable with the keyword var so it will declare globally nd locally both 
+
+var newarray=[];
+for(i=0; i<3 ; i++){
+   newarray.push(i);
+}
+console.log(newarray);
+console.log(i);
