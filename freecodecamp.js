@@ -44,3 +44,25 @@ for(i=0; i<10 ; i++){
 }
 console.log(secondarray);
 console.log(i);
+
+
+var anotherarray;
+for(i=0; i<3 ; i++){
+    if(i===4){
+    anotherarray = function(){
+        return i ;
+    }
+    }
+}
+console.log(anotherarray());
+
+
+let anotherarray2;
+for(i=0; i<3 ; i++){
+    if(i===2){
+        anotherarray2 = function(){
+            return i;
+        }
+    }
+}
+console.log(anotherarray2());
