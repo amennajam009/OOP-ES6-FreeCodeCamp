@@ -36,3 +36,11 @@ for(i=0; i<3 ; i++){
 }
 console.log(newarray);
 console.log(i);
+
+
+var secondarray=[];
+for(i=0; i<10 ; i++){
+    secondarray.push(i);
+}
+console.log(secondarray);
+console.log(i);
