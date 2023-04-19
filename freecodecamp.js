@@ -66,3 +66,30 @@ for(i=0; i<3 ; i++){
     }
 }
 console.log(anotherarray2());
+
+
+var newarray;
+for(i=0; i <3 ; i++){
+    if(i===2){
+        newarray = function(){
+            return i ;
+        }
+    }
+}
+console.log(newarray());
+
+let myarray;
+for(i=0; i<3 ; i++){
+    if(i===2){
+        myarray = function(){
+            return i ;
+        }
+    }
+}
+console.log(myarray());
+
+
+const s = [5, 6, 7];
+// s = [1, 2, 3];
+s[2] = 45;
+console.log(s);
