@@ -93,3 +93,14 @@ const s = [5, 6, 7];
 // s = [1, 2, 3];
 s[2] = 45;
 console.log(s);
+
+
+
+//NESTED FOR LOOP
+
+let myArr = [2,3,4,5,6];
+
+let total = 0;
+for(let i=0;i<myArr.length;i++){
+    total+=myArr[i]
+}
