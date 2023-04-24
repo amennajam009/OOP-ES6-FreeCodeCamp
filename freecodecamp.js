@@ -96,7 +96,7 @@ console.log(s);
 
 
 
-//NESTED FOR LOOP
+//SIMPLE FOR LOOP
 
 let myArr = [2,3,4,5,6];
 
@@ -106,3 +106,8 @@ for(let i=0;i<myArr.length;i++){
 }
 
 
+let MysecondArr = [1,2,3,4,5,6,7,8];
+let result= 0;
+for (let mygivenvalue=0; mygivenvalue<MysecondArr.length;mygivenvalue++){
+    result +=MysecondArr[mygivenvalue]
+}
