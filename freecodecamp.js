@@ -110,3 +110,5 @@ let result= 0;
 for (let mygivenvalue=0; mygivenvalue<MysecondArr.length;mygivenvalue++){
     result +=MysecondArr[mygivenvalue]
 }
+
+// #3
