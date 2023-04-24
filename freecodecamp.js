@@ -99,13 +99,12 @@ console.log(s);
 //SIMPLE FOR LOOP
 
 let myArr = [2,3,4,5,6];
-
 let total = 0;
 for(let i=0;i<myArr.length;i++){
     total+=myArr[i]
 }
 
-
+ //#2
 let MysecondArr = [1,2,3,4,5,6,7,8];
 let result= 0;
 for (let mygivenvalue=0; mygivenvalue<MysecondArr.length;mygivenvalue++){
