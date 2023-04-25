@@ -162,7 +162,7 @@ let anotherhuman = new human("neena",30,"uni","cooking","none");
 console.log(anotherhuman);
 
 
-
+// example of methods and properties
 let myobj ={
     name:'amen',
     class:'string',
@@ -173,4 +173,20 @@ let myobj ={
 }
 console.log(myobj.anotherInfo());
 
+// example of object constructor 
 
+let mynewobj = {
+    name:'hats',
+    class:'string',
+    education:'string',
+    fatherInfo:{
+        name:'najam',
+        fathername:'william',
+        education:'string',
+        phone:'+92090078061'
+    }
+}
+
+let another = new mynewobj ('testing1' , 'testingno2');
+console.log(this.fathername);
+console.log(this.phone);
