@@ -163,6 +163,14 @@ console.log(anotherhuman);
 
 
 
-
+let myobj ={
+    name:'amen',
+    class:'string',
+    education:'string',
+    anotherInfo: function(){
+        return this.name+ " testing" + this.education;
+    }
+}
+console.log(myobj.anotherInfo());
 
 
