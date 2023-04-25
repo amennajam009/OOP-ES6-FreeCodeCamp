@@ -11,10 +11,11 @@
 <body>
     
 
-    <form>
+    <form onsubmit="submitmyvalue(); return false">
         <div class="mb-3">
           <h1 for="exampleInputEmail1" class="form-label">Testing</h1>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <button class="testing btn btn-success" onclick="clickme()"> testing </button>
         </div>
     
         <button type="submit" class="btn btn-primary">Submit</button>
