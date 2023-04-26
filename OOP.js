@@ -198,4 +198,26 @@ const person = {
     age:20,
     education:"University 2nd sem"
 }
-console.log(person)
+console.log(person);
+
+// Object ProtoType
+
+const Newperson ={
+    number1:{
+    name:"amen",
+    class:"string",
+    education:"ssting",
+    age:'numeber',  
+    },
+   number2:{
+    name:'string2',
+    class:'string',
+    education:'string',
+    age:'number'
+   }
+}  
+
+  number1.greetings = function(){
+    return "Good Evening" +  this.name + this.education;
+}
+console.log(Newperson);
