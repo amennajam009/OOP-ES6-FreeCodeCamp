@@ -23,3 +23,8 @@ perform.<br>
 <p>Let suppose if we need to give multiple object of same person so what we'll do? if we want to create two
 person objects,we can use constructor - a JavaScript function invoked using the new operator.<br>
 In JavaScript, object constructors are defined using the class or function keywords. </p>
+
+
+<p>Day#4</p>
+<h1><b>Object Prototype</b></h1>
+<p>Every Object In Javascript has prototype property property, which points to the object's parent object or the object it inherits from.<br>When we try to read an property of object and let suppose it's missing so it automatically take it from our prototype This is called protopal inhertance</p>

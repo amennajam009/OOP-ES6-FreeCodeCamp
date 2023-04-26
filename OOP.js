@@ -190,3 +190,12 @@ let mynewobj = {
 let another = new mynewobj ('testing1' , 'testingno2');
 console.log(this.fathername);
 console.log(this.phone);
+
+
+// object 
+const person = {
+    name:'amen',
+    age:20,
+    education:"University 2nd sem"
+}
+console.log(person)
