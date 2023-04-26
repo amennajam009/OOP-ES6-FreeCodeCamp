@@ -217,7 +217,24 @@ const Newperson ={
    }
 }  
 
-  number1.greetings = function(){
-    return "Good Evening" +  this.name + this.education;
+function anotherperson (name,surname,educaton){
+    this.name=name,
+    this.surname=surname,
+    this.education=educaton
 }
-console.log(Newperson);
+
+anotherperson.prototype.greeting  = function(){
+    return "Good Evening" + this.name +this.surname+this.Eduaction;
+}
+const newone = new anotherperson ('amen','Najam','string');
+console.log(newone.greeting());
+
+
+// alert in object 
+const x = {
+    name:'amen',
+    run : () =>{
+        alert('here our alert')
+    }
+}
+console.log(x)
