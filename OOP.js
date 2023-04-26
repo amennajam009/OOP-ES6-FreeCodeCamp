@@ -237,4 +237,6 @@ const x = {
         alert('here our alert')
     }
 }
+x__prototype__=x
+x.run()
 console.log(x)
