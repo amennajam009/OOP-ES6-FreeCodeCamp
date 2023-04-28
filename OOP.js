@@ -255,3 +255,17 @@ greet() {
 
 const person1 = new Person('amen', 30);
 console.log(person1.greet())
+
+
+class Amen {
+    constructor(name,Age){
+        this.name=name,
+        this.Age=Age
+    }
+    greet(){
+        return "sup" + "it'me" + this.name + "i'm" + this.Age + "years old"
+    }
+}
+
+const xyz = new Amen ('Amen',21)
+console.log(xyz.greet())
