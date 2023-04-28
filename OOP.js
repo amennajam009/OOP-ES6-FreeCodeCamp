@@ -240,3 +240,18 @@ const x = {
 x__prototype__=x
 x.run()
 console.log(x)
+
+//Classes
+
+class Person {
+    constructor(name,Age){
+        this.name=name,
+        this.Age=Age
+    }
+greet() {
+    console.log("Hi" + "it's Me" + this.name + this.Age)
+}
+}
+
+const person1 = new Person('amen', 30);
+console.log(person1.greet())
