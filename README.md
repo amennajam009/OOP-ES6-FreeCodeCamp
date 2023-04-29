@@ -32,4 +32,4 @@ In JavaScript, object constructors are defined using the class or function keywo
 
 <p>Day#5</p>
 <h1><b>Classes</b></h1>
-<p>In JavaScript, classes are a way to define objects<br>When we try to read an property of object and let suppose it's missing so it automatically take it from our prototype This is called protopal inhertance</p>
+<p>In JavaScript, classes are a way to define objects<br></p>

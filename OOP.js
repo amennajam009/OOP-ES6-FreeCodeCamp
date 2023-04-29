@@ -269,3 +269,14 @@ class Amen {
 
 const xyz = new Amen ('Amen',21)
 console.log(xyz.greet())
+
+
+
+let result =[]
+for(i=0;i<10;i++){
+    if(i===8){
+        result+=i
+    }
+}
+console.log(result)
+
