@@ -59,7 +59,7 @@ console.log(anotherarray());
 
 let anotherarray2;
 for(i=0; i<3 ; i++){
-    if(i===2){
+    if(i === 2){
         anotherarray2 = function(){
             return i;
         }

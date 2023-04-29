@@ -280,3 +280,26 @@ for(i=0;i<10;i++){
 }
 console.log(result)
 
+//example of block scope / global scope
+let anotherresult;
+for(i=0;i<3;i++){
+    if(i===2){
+       anotherresult = function(){
+        return i;
+       }
+    }
+}
+console.log(anotherresult()); //output 2
+
+// global scope
+
+var anothertes;
+for(var i=0 ; i<3 ; i++){
+    if(i===2){
+        anothertes = function(){
+            return i;
+        }
+    }
+}
+console.log(anothertes()) //output 3
+
