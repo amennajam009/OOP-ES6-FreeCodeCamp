@@ -316,3 +316,4 @@ function snowball (name,education,color){
 }
 const yz = new snowball ('amen','uni 2nd sem','black');
 console.log(yz.greet());
+
