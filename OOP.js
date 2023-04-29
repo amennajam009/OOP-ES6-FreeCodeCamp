@@ -303,3 +303,16 @@ for(var i=0 ; i<3 ; i++){
 }
 console.log(anothertes()) //output 3
 
+//prototype
+
+
+function snowball (name,education,color){
+   this.name=name;
+   this.education=education;
+   this.color=color;
+   snowball.prototype.greet=function(){
+    return "Good morning" + this.name + this.education + this.color + this.phone;
+    }
+}
+const yz = new snowball ('amen','uni 2nd sem','black');
+console.log(yz.greet());
