@@ -317,3 +317,14 @@ function snowball (name,education,color){
 const yz = new snowball ('amen','uni 2nd sem','black');
 console.log(yz.greet());
 
+
+
+function User(){
+    this.name = 'amen',
+    this.class = '13th',
+    this.age = '21'
+}
+User.prototype.city='Lahore';
+
+let newuser = new User()
+console.log(newuser.city);
