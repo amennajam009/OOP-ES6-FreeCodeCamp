@@ -112,3 +112,25 @@ for (let mygivenvalue=0; mygivenvalue<MysecondArr.length;mygivenvalue++){
 }
 
 // #3
+// ternary Operator 
+//Before
+
+function Testingfunction(a,b){
+  if(a>b){
+    return "A is Greater"
+  }
+  else{
+    return "B is Greater"
+  }
+}
+Testingfunction(10,20);
+
+function AntoherTestingfunction(firstvalue,secondvalue){
+    if(firstvalue===secondvalue){
+      return  "Yes this is true"
+    }
+    else{
+     return   "No it's not True"
+    }
+}
+console.log(AntoherTestingfunction(20,20))
