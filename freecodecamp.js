@@ -134,3 +134,9 @@ function AntoherTestingfunction(firstvalue,secondvalue){
     }
 }
 console.log(AntoherTestingfunction(20,20))
+//Now i'll do the same thing but now i use ternary operators 
+
+const MyValues = (valueone,valuetwo) =>{
+   return valueone>valuetwo? "Yes it's true" : "no it's not true";
+}
+console.log(MyValues(20,30));
