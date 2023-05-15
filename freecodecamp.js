@@ -140,3 +140,21 @@ const MyValues = (valueone,valuetwo) =>{
    return valueone>valuetwo? "Yes it's true" : "no it's not true";
 }
 console.log(MyValues(20,30));
+
+const againmyvalues = (sum1,sum2) =>{
+    return sum1===sum2 ? "yes it's equal": "no it's not equal";
+}
+console.log(againmyvalues(10,10));
+
+// multiple ternary operator
+
+const Multipleternaryoperator = (num1,num2) =>{
+
+    return (num1===num2)? "num1 and num2 are equal" : (num1>num2)? "num1 is greater":"num2 is greater";
+}
+console.log(Multipleternaryoperator(25,20));
+
+const Myfunction = (num) =>{
+  return (num>0)? "positive" : (num<0) ? "Negative" : "zero";
+}
+console.log(Myfunction(-2))
