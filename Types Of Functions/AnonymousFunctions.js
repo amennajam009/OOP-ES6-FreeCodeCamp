@@ -15,3 +15,6 @@ function myvar(value1,value2){
  }
 }
 console.log(myvar(22,20))
+
+// In simple words anonymous functions k naam nai hoty han han inko hum ek variable use kr 
+//k usmay assign kr sakty han jesy hum function expression may krty han simple is that 
