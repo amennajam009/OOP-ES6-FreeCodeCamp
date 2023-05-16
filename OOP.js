@@ -328,3 +328,38 @@ User.prototype.city='Lahore';
 
 let newuser = new User()
 console.log(newuser.city);
+
+//mutate the array with the keyword const (mutate means to change the values of array)
+
+const myvalues = [1,2,3,4,5];
+myvalues[0]=2
+myvalues[1]=4
+myvalues[2]=5
+myvalues[3]=10
+myvalues[4]=11
+myvalues[5]=20
+console.log(myvalues);
+
+// to prevent the mutation in function or object we use object.freeze
+
+let obj = {
+ name:"amen",
+ Eduacation:"university"
+}
+
+Object.freeze(obj);
+obj.age= '20';
+obj.phone="90786606";
+console.log(obj)
+
+// here i'm not freezing the object and let's see the difference 
+let newobj = {
+    name:"string",
+    class:"string"
+}
+// Object.freeze(newobj);
+newobj.Age="23",
+newobj.blahblah="string",
+newobj[0]="hello world",
+newobj[1]="matric"
+console.log(newobj)
