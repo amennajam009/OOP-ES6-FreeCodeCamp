@@ -29,3 +29,15 @@ const MyVar = function (value1,value2){
    }
 }
 console.log(MyVar(22,20))
+
+
+//3rd
+const newValue = function(sum1,sum2){
+    if(sum1===sum2){
+        return true
+    }
+    if(sum1 !==sum2){
+        return false
+    }
+}
+console.log(newValue(22,20))
