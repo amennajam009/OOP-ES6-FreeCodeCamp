@@ -167,3 +167,18 @@ const myBotharray = (arr1,arr2) =>{
  return arr1.concat(arr2)
 };
 console.log(myBotharray([1,2,3,4],[5,6,7,8]));
+
+
+//in ES6 they introduce us the concept of default Value by using the default value we can set our values byDefault 
+const ByDefaultValueFunction = (number,Value=2) =>{
+    return number+Value;
+}
+console.log(ByDefaultValueFunction(5,3));
+
+//again bydefault Function 
+
+const AgainByDefault = (ourValue , defaultValue = 10) =>{
+    return ourValue === 12? "our value is greater" : ourValue + defaultValue;           
+} 
+console.log(AgainByDefault(18)) //output will be 28
+
