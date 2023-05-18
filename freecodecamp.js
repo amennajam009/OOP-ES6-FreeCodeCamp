@@ -158,3 +158,12 @@ const Myfunction = (num) =>{
   return (num>0)? "positive" : (num<0) ? "Negative" : "zero";
 }
 console.log(Myfunction(-2))
+
+
+// mery pas ek array hai jimsay mery pas hai 1,2,3 or dhusri hai 4,5,6,7
+// mai chahti hun yeh dono mai sth may likhu toh kesy likhugi
+
+const myBotharray = (arr1,arr2) =>{
+ return arr1.concat(arr2)
+};
+console.log(myBotharray([1,2,3,4],[5,6,7,8]));
