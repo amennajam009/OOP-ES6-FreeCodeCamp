@@ -200,4 +200,4 @@ const AgainRestOperator = (...argu) =>{
  }
  return total;
 }
-console.log(AgainRestOperator(0,1,2,3,4));
+console.log(AgainRestOperator(4,4));
