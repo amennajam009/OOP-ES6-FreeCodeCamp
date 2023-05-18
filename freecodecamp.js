@@ -183,5 +183,21 @@ const AgainByDefault = (ourValue , defaultValue = 10) =>{
 console.log(AgainByDefault(18)) //output will be 28
 
 
+// Rest Parameters in function parameters 
+//Es6 May hum Rest parameters pass krty han for later use jo k as in array store hoty han or hum inko 
+// parameter may pass krdety han taa k inko baad may istmal krlia jyee 
 
+const Restparameters = (...argu) =>{
+    return 'You have passed' + argu.length + 'arguments'
+}
+console.log(Restparameters(0,1,2,3,4));
 
+//again 
+const AgainRestOperator = (...argu) =>{
+ let total = 0;
+ for(let i =0; i < argu.length ; i++){
+    total +=argu[i];
+ }
+ return total;
+}
+console.log(AgainRestOperator(0,1,2,3,4));
