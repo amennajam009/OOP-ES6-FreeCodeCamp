@@ -176,7 +176,7 @@ const ByDefaultValueFunction = (number,Value=2) =>{
 console.log(ByDefaultValueFunction(5,3));
 
 //again bydefault Function 
-
+// these are called bydefault parameters
 const AgainByDefault = (ourValue , defaultValue = 10) =>{
     return ourValue === 12? "our value is greater" : ourValue + defaultValue;           
 } 
