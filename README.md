@@ -32,4 +32,4 @@ In JavaScript, object constructors are defined using the class or function keywo
 
 <p>Day#5</p>
 <h1><b>Classes</b></h1>
-<p>In JavaScript, classes are a way to define objects<br></p>
+<p>In JavaScript, classes are a way to define objects<br>class is actually our template by which we can create objects</p>
