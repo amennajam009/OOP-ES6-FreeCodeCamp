@@ -9,7 +9,7 @@ console.log(Myfunction(0,1,2,3,4,5));
 
 
 
-
+//second function
 
 const AnotherFunction = (...argu) =>{
     let total=0
@@ -27,3 +27,4 @@ const AnotherFunction2 = (defaultvalue=2,value1,value2) =>{
     return (value1===value2)? "Value1 & Value2 are equal" : false || "They're Not Equal" (value1 !== value2)? "they're undefined" : true
 }
 console.log(AnotherFunction2(3,4));
+
