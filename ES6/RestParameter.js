@@ -5,4 +5,18 @@
 const Myfunction = (...argu) =>{
  return 'You Have Passed' + argu.length + 'Level of game'
 }
-console.log(Myfunction(7));
+console.log(Myfunction(0,1,2,3,4,5));
+
+
+
+
+
+const AnotherFunction = (...argu) =>{
+    let total=0
+  for(let i=0; i<argu.length; i++){
+    total +=argu[i]
+  }
+  return total
+}
+console.log(AnotherFunction(1,2,3,4,5))
+
