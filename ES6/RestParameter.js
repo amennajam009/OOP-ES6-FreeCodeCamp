@@ -24,6 +24,6 @@ console.log(AnotherFunction(1,2,3,4,5))
 //here i'm using 4 parameters in which i set 1 default value 2 other values and one as rest parameter
 const AnotherFunction2 = (defaultvalue=2,value1,value2) =>{
   
-    return (value1===value2)? "Value1 & Value2 are equal" : false || "They're Not Equal";
+    return (value1===value2)? "Value1 & Value2 are equal" : false || "They're Not Equal" (value1 !== value2)? "they're undefined" : true
 }
 console.log(AnotherFunction2(3,4));
