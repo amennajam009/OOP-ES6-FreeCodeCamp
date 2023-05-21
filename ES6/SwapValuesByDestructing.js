@@ -9,3 +9,11 @@ const MyFruits = ['bananan', 'apple','mango', 'grapes', 'strawberry'];
 [...MyFruits].reverse();
 
 
+
+//merge two array 
+const Arr1= [0,1,2,3,4,5]
+const Arr2 = [6,7,8,9,10]
+const MergingTwoArry= Arr1.concat(Arr2);
+console.log(MergingTwoArry)
+
+
