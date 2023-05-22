@@ -22,3 +22,12 @@ const PrintagainEvenNumber = () =>{
 }
 PrintagainEvenNumber()
 
+//print All even Numbers from 0 to 17 
+const PrintAgainevenNumbers = () =>{
+    for(i=0;i<=17;i++){
+        if(i%2 === 0 ){
+            console.log(i)
+        }
+    }
+}
+PrintAgainevenNumbers()
