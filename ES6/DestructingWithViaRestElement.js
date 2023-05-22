@@ -3,7 +3,8 @@
 const MyFunction = (list) =>{
   
     const [a,b,...shorthandlist] = list;
-    return shorthandlist;
+    return shorthandlist,a,b;
+    
 }
 const arr=[1,2,3,4,5,6,7,8,9];
 const sourceWithoutFirstTwo = MyFunction(arr);
