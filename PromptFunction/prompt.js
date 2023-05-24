@@ -16,3 +16,23 @@ const Mypromptfunction = () =>{
 
 const PromptFunction = Mypromptfunction();
 console.log(PromptFunction);
+
+
+
+// again for pratice 
+const AgainPromptfunction = () =>{
+    const number = parseInt(prompt('Enter Your Number'));
+    const Result = []
+    if(!!number){
+        for(let i=0; i<=number;i++){
+            Result.push(i);
+        }
+        return Result
+    }
+    else{
+        return 'Enter Valid Number'
+    }
+}
+
+const printmyarr = AgainPromptfunction();
+console.log(printmyarr)
