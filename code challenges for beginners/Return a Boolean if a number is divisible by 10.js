@@ -13,8 +13,9 @@ const Myfunction = (number) =>{
 }
 console.log(Myfunction(20));  // Output true :)
 
-
+// By ternary Operator
 const Myotherfunction = (number) =>{
  return  (number %10 ===0)? true:false
 }
-console.log(Myotherfunction(20))
+console.log(Myotherfunction(20));
+
