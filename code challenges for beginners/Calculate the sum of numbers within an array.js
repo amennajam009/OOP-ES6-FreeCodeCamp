@@ -26,3 +26,18 @@ const myfunction = (arr) =>{
 const arr = [1,2,3,4,5,6];
 const calculating = myfunction(arr);
 console.log(calculating);
+
+
+//what if i want to multiply array
+
+const multiply = (arr) =>{
+ let multiple = 1 
+ for( let i=0 ; i<arr.length ; i++){
+    multiple *= arr[i]
+ }
+ return multiple;
+}
+
+const arr1 = [1,2,3,4,5];
+const multiplying = multiply(arr1);
+console.log(multiplying);
