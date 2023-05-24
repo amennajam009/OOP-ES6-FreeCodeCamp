@@ -27,3 +27,16 @@ console.log(sortingmyarray)
 const OurArr = [1,2,3,4,5,6,7,8,9,10];
 const OurnewArr = OurArr.sort((a,b)=> b-a);
 console.log(OurnewArr)
+
+
+//for pratcie // from smaller to larger
+const praticevalue = [5,6,5,,3,6,,8,6,4,3,8,98,199];
+const mysortingarr = praticevalue.sort((a,b)=>a-b);
+console.log(mysortingarr);
+
+
+//for pratice //from larger to smaller
+
+const againpratice = [5,6,5,,3,6,,8,6,4,3,8,98,199];
+const myothersortingarr = againpratice.sort((a,b)=>b-a);
+console.log(myothersortingarr);
