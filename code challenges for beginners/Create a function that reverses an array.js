@@ -10,3 +10,4 @@ console.log(Arr2)
 const Value1 = ['value1','value2','value3','value4','value5'];
 const Value2 = [...Value1].reverse();
 console.log(Value2)
+
