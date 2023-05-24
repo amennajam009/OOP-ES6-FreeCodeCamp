@@ -16,5 +16,5 @@ class MyObject {
 const newobj = new MyObject ('amen');
 console.log(newobj.name)
 
-
 //by using classes we can directly use our constructor in our class object in which this or new keyword are already invoked
+
