@@ -8,5 +8,10 @@
 //we can apply 3 principles yeh humra way hai to create obj hum icsy apna object bana sakty han jesy hum function sy banatay thy
 //syntax 
 class MyObject {
- 
+ constructor(name){
+    this.name = name
+ }
 }
+
+const newobj = new MyObject ('amen');
+console.log(newobj.name)
