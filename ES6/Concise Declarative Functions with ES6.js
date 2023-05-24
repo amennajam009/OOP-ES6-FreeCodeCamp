@@ -22,3 +22,16 @@ const AnotherPerson = {
     }
 }
 console.log(AnotherPerson.greeting());
+
+
+//for pratice 
+const practicefunction = {
+    country:'pak',
+    city:'...',
+    phone:'...',
+    education:'...',
+    greet(){
+     return `hey i'm from ${practicefunction.country}`
+    }
+}
+console.log(practicefunction.greet())
