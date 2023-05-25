@@ -41,5 +41,5 @@ In JavaScript, object constructors are defined using the class or function keywo
 <h3>It's Support of a few Principles that grant modularity and code Reuse</h3>
 <h2>First Requirement</h2>
 <h4>Association🤝</h4>
-<h4>Aggregation</h4>
+<h4>Aggregation 🧱</h4>
 <h4>Composition</h4>
