@@ -7,3 +7,6 @@ const MyBooleanfunction = () =>{
   return  (number%2===0)? true + 'Number Is Even': false + 'Number Is Not Even It Is Odd';
 }
 console.log(MyBooleanfunction())
+
+
+
