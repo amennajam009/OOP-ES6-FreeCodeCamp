@@ -19,6 +19,12 @@ console.log(PromptFunction);
 
 
 
+
+
+
+
+
+
 // again for pratice 
 const AgainPromptfunction = () =>{
     const number = parseInt(prompt('Enter Your Number'));
