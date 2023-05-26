@@ -35,3 +35,5 @@ const Mynewstringfunction = (str) => {
   const testingresults = Mynewstringfunction(Mysentence);
   console.log(`This Testing Sentence contains ${testingresults} vowels.`);
 
+
+
