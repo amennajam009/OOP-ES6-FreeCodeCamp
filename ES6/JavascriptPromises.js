@@ -20,4 +20,8 @@ const makeServerRequest2 = new Promise((resolve, reject) => {
       reject("Data not received");
     }
   });
-  
+
+ for(let i=1 ;i<=10;i++){
+  let row = "7 x"  + i + "="+ 7*i;
+  console.log(row)
+ }
