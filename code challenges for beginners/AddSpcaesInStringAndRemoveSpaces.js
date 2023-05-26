@@ -19,3 +19,6 @@ function removeSpaces(str) {
   const word = "hello";
   const stringWithSpaces = addSpaces(word);
   console.log(stringWithSpaces);
+
+
+
