@@ -8,5 +8,9 @@ const MyBooleanfunction = () =>{
 }
 console.log(MyBooleanfunction())
 
-
-
+//Whenever i Enter Negative Number In my prompt so it will return me that the Number you entered is Negative : positive
+const MyPositiveNegativenumber = () =>{
+  const EnterNumber = parseInt(prompt('Enter Your Number'));
+  return (EnterNumber<0)? 'The Number you Entered is Negative' : 'The Number You Entered Is Positive'
+}
+console.log(MyPositiveNegativenumber())
