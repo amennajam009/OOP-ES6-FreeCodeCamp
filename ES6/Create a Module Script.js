@@ -19,7 +19,11 @@ stringFunctions.lowercaseString("WORLD!");
 
 
 
+//In the export lesson, you learned about the syntax referred to as a named export. This allowed you to make multiple functions and variables available for use in other files
 
+export default function(x,y){
+ return x+y
+}
 
 
 
