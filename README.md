@@ -42,4 +42,8 @@ In JavaScript, object constructors are defined using the class or function keywo
 <h2>First Requirement</h2>
 <h4>Association🤝</h4>
 <h4>Aggregation 🧱</h4>
-<h4>Composition</h4>
+<h4>Composition 🧱 </h4>
+<h2>Second Requirement</h2>
+<h4>Encapsulatio💊</h4>
+<h4>Inheritance 🧱</h4>
+<h4>Polymorphism</h4>
