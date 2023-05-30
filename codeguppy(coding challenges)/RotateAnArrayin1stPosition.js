@@ -35,3 +35,13 @@ const My3rdFunction = (arr1,arr2) =>{
   return MergeMyArr;
 }
 console.log(My3rdFunction([1,2,3,4],[5,6,7,8]));
+
+
+//Convert String To Array
+
+const MyStringFunction = () =>{
+    const MyString = 'Hello'
+    const CovertToArr = Array.from(MyString);
+    return CovertToArr;
+}
+console.log(MyStringFunction())
