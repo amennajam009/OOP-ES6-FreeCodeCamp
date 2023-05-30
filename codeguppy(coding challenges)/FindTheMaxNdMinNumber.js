@@ -10,3 +10,17 @@ console.log(FindMaxNumber)
 const MyArray2 = [1,2,3,4,5,6,7,4,5,6]
 const FindMinNumber = Math.min(...MyArray2);
 console.log(FindMinNumber)
+
+
+
+
+
+let ar = [1, 2, 3];
+rotateLeft(ar);
+console.log(ar);
+
+function rotateLeft(ar)
+{
+    let first = ar.shift();
+    ar.push(first);
+}
