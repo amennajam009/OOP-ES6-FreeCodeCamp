@@ -18,3 +18,12 @@ const MyFunction = () =>{
     return Mystring
 }
 console.log(MyFunction());
+
+//Reverse Array 
+
+const My2ndFunction = ()=>{
+    const MyArr = [1,2,3,4,5,6,7]
+    const ReverseMyArr = [...MyArr].reverse()
+    return ReverseMyArr;
+}
+console.log(My2ndFunction())
