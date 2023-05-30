@@ -7,4 +7,14 @@ arr[0]='apple'
 arr[1]='mango'
 arr[2]='banana'
 
-console.log(arr)
+console.log(arr);
+
+//Problem No 2
+//reverse A string 
+
+const MyFunction = () =>{
+    let Mystring = 'Hey My Name is Amen'
+  Mystring =  Mystring.split('').reverse().join('')
+    return Mystring
+}
+console.log(MyFunction());
