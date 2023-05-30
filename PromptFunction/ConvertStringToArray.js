@@ -10,3 +10,10 @@ console.log(MyStringCovertToObject())
 
 
 //Again Doing It
+const AgainDoingForPratice = () =>{
+    const EnterYourString = prompt('Enter Your String')
+    let MyGivenString = ''
+    MyGivenString = Array.from(EnterYourString)
+    return MyGivenString
+}
+console.log(AgainDoingForPratice())
