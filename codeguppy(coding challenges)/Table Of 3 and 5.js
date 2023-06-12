@@ -20,3 +20,16 @@ const MysecondFunction = (table) =>{
  return Result
 }
 console.log(MysecondFunction(5))
+
+// For Pratice purpose Only 
+
+const MyPromptFunction = () =>{
+    const MyNumber = parseInt(prompt('Enter Your Numer'));
+    let Result = ''
+    for(let i=1 ; i<=10 ; i++){
+        const TableRow = MyNumber + 'x' + i + '=' + MyNumber*i
+        Result += TableRow + '\n'
+    }
+    return Result
+}
+console.log(MyPromptFunction())
