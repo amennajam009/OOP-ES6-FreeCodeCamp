@@ -4,3 +4,10 @@ const myfunction = (value1,value2) =>{
     return value1+value2
 }
 console.log(10+20)
+
+const myobj={
+    name:'amen',
+    class:'2nd sem',
+    university:'Virtual university'
+}
+console.table(myobj)
