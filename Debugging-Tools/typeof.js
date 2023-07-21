@@ -20,4 +20,4 @@ console.log(typeof myfunction([1,2,3,4,5],[6,7,8,9])) //output will be object in
 const mytestingfunction = (num1,num2)=>{
    return (num1===num2)? 'number1 and number2 are equal' : 'number1 and number2 is not equal'
 }
-console.log(typeof mytestingfunction(20,30))
+console.log(typeof mytestingfunction(20,30)) //First this will tell us the typeof 
