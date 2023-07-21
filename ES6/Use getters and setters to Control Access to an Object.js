@@ -24,3 +24,4 @@ class MyObj {
 const myvalues = new MyObj('amen',20,'intermediate');
 console.log(myvalues.name());
 
+
