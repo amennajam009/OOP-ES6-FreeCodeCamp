@@ -5,6 +5,7 @@
 const variable1 = 7
 const variable2 = 'Its type is String'
 const variable3 = true
-console.log(typeof variable1)
-console.log(typeof variable2)
-console.log(typeof variable3)
+console.log(typeof variable1) // output will be number
+console.log(typeof variable2) // output will be string
+console.log(typeof variable3) // output will be boolean
+
