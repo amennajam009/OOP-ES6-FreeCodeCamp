@@ -10,6 +10,7 @@ console.log(typeof variable2) // output will be string
 console.log(typeof variable3) // output will be boolean
 
 
+
 //Another Example for pratice 
 const myfunction = (arr1,arr2) =>{
 return arr1.concat(...arr2)
