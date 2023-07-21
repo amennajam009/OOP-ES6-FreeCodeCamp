@@ -10,4 +10,4 @@ const myobj={
     class:'2nd sem',
     university:'Virtual university'
 }
-console.table(myobj)
+console.table(myobj) // console.table will give us result in table
