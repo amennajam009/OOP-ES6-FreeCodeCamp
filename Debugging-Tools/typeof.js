@@ -9,3 +9,10 @@ console.log(typeof variable1) // output will be number
 console.log(typeof variable2) // output will be string
 console.log(typeof variable3) // output will be boolean
 
+
+//Another Example for pratice 
+const myfunction = (arr1,arr2) =>{
+return arr1.concat(...arr2)
+}
+console.log(typeof myfunction([1,2,3,4,5],[6,7,8,9])) //output will be object in our console
+
