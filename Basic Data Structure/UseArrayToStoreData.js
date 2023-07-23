@@ -32,3 +32,31 @@ const MultiDimensionalArray = [
 ]
 console.log(MultiDimensionalArray)
 //MultidimensionalArray are those in which we pass nested array data
+
+
+//Another Example Of MultidimensionalArray
+
+const Testingone = [
+    {
+        id:1,
+        name:'testing1',
+        variable:'variable1'
+    },
+    {
+        id:2,
+        name:'testing2',
+        variable:'varibale2'
+    },
+    {
+        id:3,
+        name:'testing3',
+        variable:'varibale3'
+    },
+    {
+        id:4,
+        name:'testing4',
+        varibale:'varibale4'
+    }
+]
+console.log(Testingone)
+// console.table(Testingone)
