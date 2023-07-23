@@ -31,4 +31,4 @@ const MultiDimensionalArray = [
     }
 ]
 console.log(MultiDimensionalArray)
-
+//MultidimensionalArray are those in which we pass nested array data
