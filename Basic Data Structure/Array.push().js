@@ -12,3 +12,13 @@ console.log(MyArray)
 const MyArray2 = ['three','four','five','six']
 MyArray2.unshift('one','two')
 console.log(MyArray2)
+
+
+
+//Array.pop is actually used to remove the items from last of the Array
+
+const MyArray3 = ['one','two','three','four','five','Six','seven','Eight','nine']
+MyArray3.pop()
+MyArray3.pop()
+MyArray3.pop()
+console.log(MyArray3)
