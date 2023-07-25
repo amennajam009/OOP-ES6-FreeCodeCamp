@@ -18,6 +18,7 @@ MyArray3.pop()
 console.log(MyArray3)
 
 
+
 //Array.shift is actually used to remove the items from the starting of the Array
 const MyArray4 = ['one','two','three','four','five','six','seven']
 MyArray4.shift()
