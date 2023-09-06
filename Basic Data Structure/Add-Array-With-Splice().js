@@ -5,4 +5,13 @@ const PositionfromeheretoAdd = 4
 const ValueToDelete = 1
 
 MyArray.splice(PositionfromeheretoAdd , ValueToDelete , 'hello', 'world')
-console.log(MyArray)
+console.log(MyArray);
+
+
+
+// Let delete it from here and to add this new one
+
+const MystringArr = ['hello' , 'world' , 'one' , 'two' , 'three' , 'four', 'five']
+const Positionwheretostartadding = 2
+MystringArr.splice(Positionwheretostartadding , 'SIX' , 'SEVEN' , 'EIGHT' , 'NINE')
+console.log(MystringArr)
